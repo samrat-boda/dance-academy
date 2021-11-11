@@ -1,0 +1,56 @@
+doctype html
+html
+  head
+    style
+      include ../static/style.css
+  body
+    nav#navbar 
+      ul 
+        div#logo 
+        img(src="/static/images/logo.png" href='/')
+        li #[a(href ="/") Home]
+        li #[a(href ="/") About]
+        li #[a(href ="/") Services]
+        li #[a(href ="/") Class Info]
+        li #[a(href ="/") Contact Us]		
+section#introSection 
+  div  welcome to sammy dance academy	 
+  div.small learn to excell the skill
+
+section#missionSection 
+  h2 OUR mission
+  div.card 
+    h3 dance eviuhn 
+    div.card-box
+    div.card-img
+      img(src="/static/images/dancepng1.png")
+      div.card-content
+        p  fuga nostrum temporibus repudiandae! Sequi nemo dicta enim praesentium obcaecati!
+  div.card 
+    h3 dance eviuhn 
+    div.card-box
+    div.card-img
+      img(src="/static/images/dancepng2.png")
+      div.card-content
+        p  fuga nostrum temporibus repudiandae! Sequi nemo dicta enim praesentium obcaecati!
+  div.card 
+    h3 dance eviuhn 
+    div.card-box
+    div.card-img
+      img(src="/static/images/dancepng3.png")
+      div.card-content
+        p  fuga nostrum temporibus repudiandae! Sequi nemo dicta enim praesentium obcaecati!
+
+
+section#sponsersSection 
+  h2 Our Sponsors
+    div#sponsers
+    img(src= "/static/images/clients1.png", alt= "Sponsor Image", class= "spImage")
+    img(src= "/static/images/clients2.png", alt= "Sponsor Image", class= "spImage")
+    img(src= "/static/images/clients3.jpg", alt= "Sponsor Image", class= "spImage")
+    img(src= "/static/images/clients4.jpg",alt= "Sponsor Image", class= "spImage")
+
+footer#footer
+  | Copyright © 2021 sammydanceAcademy.com | All Rights Reserved
+script
+  include ../static/index.js
