@@ -22,7 +22,7 @@ app.use(express.urlencoded());
 
 // PUG SPECIFIC STUFF
 app.set("view engine", "pug"); // Set the template engine as pug
-app.set("views", path.join(__dirname, "../views")); // Set the views directory
+app.set("views", path.join(__dirname, "/views")); // Set the views directory
 
 //end points
 app.get("/", (req, res) => { 
