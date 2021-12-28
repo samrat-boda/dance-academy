@@ -1,0 +1,51 @@
+extends base.pug 
+block scripts 
+    script(src="../static/index.js").
+
+block style 
+    style 
+        include ../static/style.css
+        include ../static/services.css
+
+block content  
+    .container
+      h2 SERVICES
+      h4 What we offer 
+      .row
+          .coloum
+              .imgs
+                img(src='/static/images/services1.png')
+              .content
+                h4 Heading
+                p  Lorem ipsum dolor, sit amet consectetur 
+          .coloum
+              .imgs
+                img(src='/static/images/services2.png')
+              .content
+                h4 Heading
+                p  Lorem ipsum dolor, sit amet consectetur 
+          .coloum
+              .imgs
+                img(src='/static/images/services3.png')
+              .content
+                h4 Heading
+                p  Lorem ipsum dolor, sit amet consectetur
+      .row
+          .coloum
+              .imgs
+                img(src='/static/images/services4.png')
+              .content
+                h4 Heading
+                p  Lorem ipsum dolor, sit amet consectetur 
+          .coloum
+              .imgs
+                img(src='/static/images/services5.png')
+              .content
+                h4 Heading
+                p  Lorem ipsum dolor, sit amet consectetur 
+          .coloum
+              .imgs
+                img(src='/static/images/services6.png')
+              .content
+                h4 Heading
+                p  Lorem ipsum dolor, sit amet consectetur

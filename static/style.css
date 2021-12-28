@@ -21,14 +21,15 @@ img{
 #navbar ul {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: center; 
     /* justify-content: center; */
 }
 
 #navbar {
-    background-color: #b34949; 
-    height: 50px;
-    padding: 13px 2px;
+    background-color: #b34949;
+    height: 59px;
+    padding: 16px 19px;
+    position: sticky;
 }
 
 #navbar li {
@@ -55,35 +56,37 @@ img{
     color: white;
     display: flex;
     flex-direction: column;
-    font-size: 3rem;
+    font-size: 5rem;
     align-items: center;
     justify-content: center;
-    height: 300px;
+    height: 680px;
     background-color: aqua;
     background: center / cover no-repeat url(/static/images/bg.jpg);
 }
 
 #introSection div.small {
-    font-size: 25px;
+    font-size: 40px;
 }
 #missionSection{
-    height: 326px;; 
-    width: 67%;
-    margin: 12px 240px;
+    height: 550px;
+    width: 84%;
+    margin: 32px auto;
 }
 
 #missionSection h2 {
     text-align: center;
-    padding: 11px 11px;
+    padding: 17px 13px;
+    font-size: 2.8rem;
 }
 .card{
     display: inline-block;
-    border: 2px solid black;
-    border-radius: 10px;
-    width: 29%;
-    margin: 23px 20px;
-    height: 209px;
-    background-color: #f5d4d4;
+    border: 3px solid black;
+    border-radius: 23px;
+    width: 30%;
+    margin: 35px 20px;
+    height: 357px;
+    background-color: #f0c4c4;
+
 }
 .card h3{
     text-align: center;
@@ -105,18 +108,18 @@ img{
     height: 78px;
     width: 88px;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 28px auto;
 }
 
 #sponsersSection {
-    height: 300px;
+    height: 550px;
     background-color: #d68e8e;
 }
 
 #sponsersSection h2 {
     text-align: center;
-    padding: 11px 11px;
+    padding: 57px 24px;
+    font-size: 2.6rem;
 }
 
 
@@ -127,15 +130,21 @@ img{
 }
 
 .spImage{
-    height: 145px;
-    width: 153px;
-    margin: 55px;
+    height: 177px;
+    width: 187px;
+    margin: 81px;
 }
 
 #footer{ 
     height: 30px;
     background-color: black;
     color: white;
+}
+
+#footer.copyright{
+    display: flex;
+    flex-direction: center;
     justify-content: center;
     align-items: center;
+
 }

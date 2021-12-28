@@ -2,12 +2,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
     /* font-family: 'Indie Flower', cursive; */
 }
 
 h1{
     text-align: center;
     margin: 12px 0;
+    color: white;
+    font-size: 2.5rem;
 }
 .container{
     min-height: 90vh;
@@ -15,6 +18,8 @@ h1{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background: center / cover no-repeat url(/static/images/contact\ us\ bg.jpg);
+    opacity: 1;
 }
 .myForm {
     display: flex;

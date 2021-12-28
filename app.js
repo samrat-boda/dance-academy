@@ -29,10 +29,17 @@ app.get("/", (req, res) => {
   res.status(200).render("home.pug");
 });
 
+app.get("/about", (req, res) => { 
+  res.status(200).render("about.pug");
+});
+
 app.get("/contact", (req, res) => { 
   res.status(200).render("contact.pug");
 });
 
+app.get("/services", (req, res) => { 
+  res.status(200).render("service.pug");
+});
 app.post("/contact", (req, res) => {
    
     var mydata = new contact(req.body);

@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Indie Flower', cursive; */
+}
+
+#aboutsection {
+    padding: 50px 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.3rem;
+    background-color: rgb(5 5 5 / 6%);
+    height: 664px;
+}
+
+#aboutsection h1 {
+    font-size: 75px;
+}
+
+/* #content {
+    margin: 0px 0px;
+    padding: 0px 0px;
+    color: white;
+    background: center / cover no-repeat url(/static/images/aboutbg\ .jpg);
+}
+#content p{
+    margin: 0px 0px;
+    padding: 0px 0px;
+} */
+#teamsection {
+    height: 530px;
+    padding: 53px 22px; 
+    background-color: rgb(5 5 5 / 6%);
+}
+#teamsection h2 {
+    position: absolute;
+    left: 45%;
+    font-size: 1.5rem;
+}
+
+.box-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+
+.box {
+    display: inline-block;
+    /* border: 3px solid black;
+    border-radius: 23px; */
+    width: 30%;
+    margin: 35px 20px;
+    padding: 6px 6px;
+    height: 400px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      
+}
+
+.box-img img {
+    height: 160px;
+    width: 160px;
+    display: block;
+    margin: 28px auto;
+}
+
+.box-img {
+    margin: 7px 35px;
+    padding: 1px 13px;
+}
+
+button.button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    height: 26px;
+    width: 351px;
+    /* color: black; */
+}
+button.button:hover{
+    background-color: rgb(216, 179, 179);
+    color: black;
+}
